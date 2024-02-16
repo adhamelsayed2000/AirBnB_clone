@@ -27,6 +27,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 8px ;
+
   }
   .places article h2 {
     font-size: 30px;
@@ -43,7 +45,7 @@
       min-width: 60px;
       height: 60px;
       line-height: 60px;
-      font-size: 30px;
+      font-size: 25px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -51,24 +53,25 @@
         
     }
     .places article .information {
-      height: 100%;
       border-top: 1px solid #DDDDDD;
       border-bottom: 1px solid #DDDDDD;
       align-items: center;
       display: flex;
       flex-direction: row;
-      justify-content: flex-start;
+      justify-content: center;
     }
     div.max_guest,
     div.number_rooms,
     div.number_bathrooms {
       line-height: 140px;
       width: 100px;
-      height: 100%;
+      height: 55%;
       display: flex;
       flex-direction: row;
-      /* background-position: 50% 5px; */
+      background-position: 50% 5px;
       background-repeat: no-repeat;
+      justify-content: center;
+
     }
     .max_guest {
       background-image: url("../images/icon_group.png");
