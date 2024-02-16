@@ -51,13 +51,12 @@
         
     }
     .places article .information {
-      height: 100%;
       border-top: 1px solid #DDDDDD;
       border-bottom: 1px solid #DDDDDD;
       align-items: center;
       display: flex;
       flex-direction: row;
-      justify-content: flex-start;
+      justify-content: center;
     }
     div.max_guest,
     div.number_rooms,
