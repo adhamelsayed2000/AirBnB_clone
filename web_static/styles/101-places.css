@@ -63,10 +63,10 @@
     div.number_bathrooms {
       line-height: 140px;
       width: 100px;
-      height: 100%;
+      height: 55%;
       display: flex;
       flex-direction: row;
-      /* background-position: 50% 5px; */
+      background-position: 50% 5px;
       background-repeat: no-repeat;
     }
     .max_guest {
