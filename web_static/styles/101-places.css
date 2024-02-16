@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 5px ;
   }
   .places article h2 {
     font-size: 30px;
@@ -50,6 +51,9 @@
       flex: 1;
         
     }
+    .locations, .amenities {
+        height: auto;
+        }
     .places article .information {
       border-top: 1px solid #DDDDDD;
       border-bottom: 1px solid #DDDDDD;
@@ -68,6 +72,7 @@
       flex-direction: row;
       background-position: 50% 5px;
       background-repeat: no-repeat;
+      justify-content: center;
     }
     .max_guest {
       background-image: url("../images/icon_group.png");
@@ -91,11 +96,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
-      margin: 40px 0 40px;
+      margin: 10px 0 10px;
       width: 100%;
       padding: 0;
       
   }
+  
   .places article .amenities h2,
   .places article .reviews h2{
       size: 16px;	
