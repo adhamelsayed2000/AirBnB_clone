@@ -69,7 +69,7 @@ section.filters button:hover {
   background-color: #FAFAFA;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
-  position:absolute ;
+  position:absolute !important ;
   width: 22%;
 }
 .popover h2 {
@@ -122,7 +122,7 @@ li {
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    position:absolute ;
+    position:absolute !important ;
     width: 50%;
   }
     section.filters {
