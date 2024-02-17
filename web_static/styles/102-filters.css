@@ -70,7 +70,7 @@ section.filters button:hover {
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   position:absolute ;
-  width: 50%;
+  width: 22%;
 }
 .popover h2 {
   font-size: 16px;
@@ -116,6 +116,9 @@ li {
     height: 100%;
     width: 50%;
     float: left;
+  }
+  .popover {
+    width: 50% !important;
   }
     section.filters {
       zoom: 1;
