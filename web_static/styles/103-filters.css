@@ -38,7 +38,7 @@ section.filters button:hover {
 /* location and amenities part of search bar */
 .locations,
 .amenities {
-    height: 100%;
+    height: auto;
     width: 38%;
     float: left;
 }
