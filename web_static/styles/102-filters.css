@@ -118,7 +118,12 @@ li {
     float: left;
   }
   .popover {
-    width: 50% !important;
+    display: none;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    position:absolute ;
+    width: 50%;
   }
     section.filters {
       zoom: 1;
