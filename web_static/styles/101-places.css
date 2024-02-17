@@ -74,6 +74,10 @@
       background-repeat: no-repeat;
       justify-content: center;
     }
+    .popover {
+      position:absolute ;
+      width: 22%;
+      }
     .max_guest {
       background-image: url("../images/icon_group.png");
     }
