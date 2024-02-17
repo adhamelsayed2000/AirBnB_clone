@@ -39,7 +39,7 @@ section.filters button:hover {
 .locations,
 .amenities {
   height: 100%;
-  width: 25%;
+  width: 38%;
   float: left;
 }
 .locations {
@@ -70,7 +70,7 @@ section.filters button:hover {
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   position:absolute ;
-  width: 22%;
+  width: 50%;
 }
 .popover h2 {
   font-size: 16px;
